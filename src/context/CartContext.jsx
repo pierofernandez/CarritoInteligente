@@ -57,6 +57,7 @@ export function CartProvider({ children }) {
 
     const value = {
         cartItems,
+        setCartItems,
         addToCart,
         removeFromCart,
         updateQuantity,
